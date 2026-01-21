@@ -43,13 +43,3 @@ async def run_ocr(file: UploadFile = File(...)):
         return {"result": result}
     finally:
         shutil.rmtree(tmp_dir, ignore_errors=True)
-```
-
-## requirements.txt도 업데이트
-```
-fastapi
-uvicorn[standard]
-paddleocr
-paddlepaddle
-python-multipart
-Pillow

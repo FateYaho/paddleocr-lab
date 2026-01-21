@@ -2,5 +2,4 @@ fastapi
 uvicorn[standard]
 paddleocr
 paddlepaddle
-opencv-python
-pillow
+python-multipart

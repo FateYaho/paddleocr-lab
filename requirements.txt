@@ -1,8 +1,8 @@
 fastapi
 uvicorn[standard]
-paddleocr==2.6.1.3
-paddlepaddle==2.5.1
+paddleocr
+paddlepaddle
 python-multipart
 Pillow
-numpy==1.24.3
-opencv-python-headless==4.8.1.78
+numpy<2.0.0
+opencv-python-headless
